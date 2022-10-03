@@ -1,6 +1,6 @@
-from gtn import guess_number
-from rps import rock_papers_scissors
-from wordle import wordle
+from games.gtn import guess_number
+from games.rps import rock_papers_scissors
+from games.wordle import wordle
 
 if __name__ == "__main__":
     option = input("""----- Jogos -----
